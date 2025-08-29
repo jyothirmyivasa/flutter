@@ -30,7 +30,7 @@ class ResponsiveLayout extends StatelessWidget{
     }
   }
 
-  Widget _buildMobileLayout(){
+    Widget _buildMobileLayout(){
     return Container(
       color: Colors.blue.shade50,
       child: const Center(
@@ -41,6 +41,8 @@ class ResponsiveLayout extends StatelessWidget{
       ),
     );
   }
+
+  
   Widget _buildTabletLayout(){
     return Container(
       color: Colors.green.shade50,
