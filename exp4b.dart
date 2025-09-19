@@ -3,7 +3,6 @@ void main() {
     runApp(NavigationDemoApp());
 }
 
-
 class NavigationDemoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,7 +17,6 @@ class NavigationDemoApp extends StatelessWidget {
     );
   }
 }
-
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -37,7 +35,6 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
 
 class SecondScreen extends StatelessWidget {
   @override
